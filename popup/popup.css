@@ -1,0 +1,42 @@
+:root {
+  --mv-bg-color: #1c1f22;
+  --mv-color: #dc5a0b;
+  --mv-white: #eee;
+}
+
+body {
+  background-color: var(--mv-bg-color);
+  color: var(--mv-white);
+  width: 430px;
+  height: 240px;
+  border-radius: 25%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.mv-logo {
+  width: 24px;
+  height: 24px;
+}
+
+.matrix {
+  margin-top: 16px;
+  padding: 10px;
+  width: 400px;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  gap: 10px;
+}
+
+.box {
+  text-align: center;
+  border: 1px solid red;
+  height: 120px;
+}
